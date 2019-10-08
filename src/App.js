@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <h1>React app ready</h1>
+      <h1>React app ready - MVP</h1>
     </div>
   );
 }
