@@ -1,0 +1,12 @@
+@import "../scss/index.scss";
+
+.hero {
+  @include flex();
+  background-color: $dark;
+  height: 400px;
+  width: 100%;
+
+  .hero-content {
+    color: $light;
+  }
+}

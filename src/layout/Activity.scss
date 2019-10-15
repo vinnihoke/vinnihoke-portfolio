@@ -1,0 +1,6 @@
+@import "../scss/index.scss";
+
+.activity {
+  @include flex();
+  height: 400px;
+}

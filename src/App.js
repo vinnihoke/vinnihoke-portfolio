@@ -1,12 +1,20 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
+import "./scss/index.scss";
+import Hero from "./layout/Hero.jsx";
+import About from "./layout/About";
+import Activity from "./layout/Activity";
 
-function App() {
+import { Col } from "antd";
+
+const App = () => {
   return (
-    <div>
-      <h1>React app ready - MVP</h1>
-    </div>
+    <Col>
+      <Hero />
+      <About />
+      <Activity />
+    </Col>
   );
-}
+};
 
 export default App;
