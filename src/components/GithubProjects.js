@@ -31,6 +31,7 @@ const GithubProjects = () => {
           >
             <p>{project.name}</p>
             <p>{project.language}</p>
+            <p>{project.description}</p>
           </Card>
         );
       })}
